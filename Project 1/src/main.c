@@ -28,20 +28,20 @@ int main() {
 	 {
 	 case 1:
 		printf("Enter two numbers: \n");
-      	scanf("%ld %ld", &num1, &num2);      	
-      	printf("Sum = %ld", addition(num1,num2));
+      	scanf("%d %d", &num1, &num2);      	
+      	printf("Sum = %d", addition(num1,num2));
       	break;	
       	
      case 2:
 	 	printf("Enter two numbers: \n");
-      	scanf("%ld %ld", &num1, &num2);     	
-      	printf("Difference = %ld", subtraction(num1,num2));
+      	scanf("%d %d", &num1, &num2);     	
+      	printf("Difference = %d", subtraction(num1,num2));
       	break;	
       	
      case 3:
 	  	printf("Enter two numbers: \n");
-      	scanf("%ld %ld", &num1, &num2);      	
-     	printf("Product = %ld", multiplication(num1,num2));
+      	scanf("%d %d", &num1, &num2);      	
+     	printf("Product = %d", multiplication(num1,num2));
       	break; 	
       
      case 4:
