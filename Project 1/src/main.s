@@ -1,16 +1,16 @@
 .text
-.global add
-.global subtract
-.global multiply
+.global addition
+.global subtraction
+.global multiplication
 
-add:
+addition:
     ADD    r0, r0, r1
     MOV    pc, lr
 
-subtract:
+subtraction:
     SUB    r0, r0, r1
     MOV    pc, lr
 
-multiply:
+multiplication:
 	MUL    r0, r0, r1
     MOV    pc, lr
