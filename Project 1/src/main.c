@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 /*global Variables */
 signed int num1;
