@@ -3,6 +3,7 @@
 /*global Variables */
 signed int num1;
 signed int num2;
+signed int choice;
 signed int addition(signed int num1,signed int num2);
 signed int subtraction(signed int num1,signed int num2);
 signed int multiplication(signed int num1,signed int num2);
