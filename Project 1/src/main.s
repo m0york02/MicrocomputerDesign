@@ -1,4 +1,4 @@
-.text
+.section "text"
 .global addition
 .global subtraction
 .global multiplication
@@ -14,3 +14,5 @@ subtraction:
 multiplication:
 	MUL    r0, r0, r1
     MOV    pc, lr
+
+.end
